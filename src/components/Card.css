@@ -1,0 +1,43 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  cursor: pointer;
+  background-color: deepskyblue;
+  box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.303);
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.btn-close {
+  background-color: red;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.btn-close:hover {
+  background-color: brown;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding: 1rem;
+}
+
+.container-temp {
+  padding: 8px;
+}
+
+.row {
+  padding: 1rem;
+}

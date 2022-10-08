@@ -1,38 +1,22 @@
 .App {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(35, 35, 35);
+  background-position: center center;
+  min-height: 300vh;
+  /* background-image: url("https://prematch.com.ar/wp-content/uploads/2022/08/Los-dias-terrestres-han-aumentado-misteriosamente-en-duracion-los-cientificos.gif"); */
+  /* backdrop-filter: blur(10px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
