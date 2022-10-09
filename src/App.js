@@ -29,6 +29,7 @@ export default function App() {
           clouds: cityData.clouds.all,
           latitud: cityData.coord.lat,
           longitud: cityData.coord.lon
+          
         };
 
         const cityId = ciudad.id;
